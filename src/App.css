@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1vw;
+  font-size: 1vw;
+  padding-top: 3vw;
+  width: 200px;
+  padding: 14vw;
+}
+input {
+  padding: .3vw;
+}
+button {
+  background-color: cornflowerblue;
+  border: none;
+  padding: .2vw 2vw .2vw 2vw;
+}
+textarea {
+  min-width: 200px;
+  height: 15vh;
+}
+
+
